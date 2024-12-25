@@ -1,0 +1,44 @@
+<style>
+  .banner{
+    display: flex;
+  }
+  #banner_img {
+    max-height: 900px;
+    width: 100%;
+    object-fit:cover;
+  }
+  .banner-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+  }
+  .btn:hover {
+      background-color: #3074ba !important;
+      color: white !important;
+  }
+
+  .btn span {
+      transition: transform 0.3s ease;
+  }
+
+  .btn:hover span {
+      transform: scale(1.05);
+  }
+</style>
+<div class="banner">
+  <img class="img-fluid" id="banner_img" src="/static/banner.jpg" alt="Banner Image" >
+  <div class="banner-text">
+      <h1 class="text-center fw-semibold display-1">Careerlytics</h1>
+      <h3 class="text-center fs-3">Your one-stop solution for career guidance</h3>
+    <a href="#job-item" type="button" class="btn btn-outline mx-auto d-block px-4 py-2 fw-normal fs-6 mt-4" style="color: #3074ba; border-color: #3074ba; transition: all 0.3s;">
+        Apply Now
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-right ms-1" viewBox="0 0 16 16" style="stroke-width: 0.25; stroke: currentColor;">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+        </svg>
+    </a>
+  </div>
+</div>

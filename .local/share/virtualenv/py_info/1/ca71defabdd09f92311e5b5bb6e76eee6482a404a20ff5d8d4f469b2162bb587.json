@@ -1,0 +1,66 @@
+{
+  "content": {
+    "_creators": null,
+    "architecture": 64,
+    "base_exec_prefix": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+    "base_prefix": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+    "distutils_install": {},
+    "exec_prefix": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+    "executable": "/nix/store/sqlb1nn5d6j096h9s52jy3is6nd7b98y-python-wrapped-0.1.0/bin/.python-wrapped",
+    "file_system_encoding": "utf-8",
+    "has_venv": true,
+    "implementation": "CPython",
+    "max_size": 9223372036854775807,
+    "original_executable": "/nix/store/sqlb1nn5d6j096h9s52jy3is6nd7b98y-python-wrapped-0.1.0/bin/.python-wrapped",
+    "os": "posix",
+    "path": [
+      "/nix/store/8xbcm89jwys1dzarwpbm37n0nwrsq1i7-python3.12-virtualenv-20.26.6/lib/python3.12/site-packages/virtualenv/discovery",
+      "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python313.zip",
+      "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python3.13",
+      "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python3.13/lib-dynload",
+      "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python3.13/site-packages"
+    ],
+    "platform": "linux",
+    "prefix": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+    "real_prefix": null,
+    "stdout_encoding": "utf-8",
+    "sysconfig": {
+      "makefile_filename": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python3.13/config-3.13-x86_64-linux-gnu/Makefile"
+    },
+    "sysconfig_paths": {
+      "data": "{base}",
+      "include": "{installed_base}/include/{implementation_lower}{py_version_short}{abiflags}",
+      "platlib": "{platbase}/{platlibdir}/{implementation_lower}{py_version_short}{abi_thread}/site-packages",
+      "platstdlib": "{platbase}/{platlibdir}/{implementation_lower}{py_version_short}{abi_thread}",
+      "purelib": "{base}/lib/{implementation_lower}{py_version_short}{abi_thread}/site-packages",
+      "scripts": "{base}/bin",
+      "stdlib": "{installed_base}/{platlibdir}/{implementation_lower}{py_version_short}{abi_thread}"
+    },
+    "sysconfig_scheme": "venv",
+    "sysconfig_vars": {
+      "PYTHONFRAMEWORK": "",
+      "abi_thread": "",
+      "abiflags": "",
+      "base": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+      "implementation_lower": "python",
+      "installed_base": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+      "platbase": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1",
+      "platlibdir": "lib",
+      "py_version_short": "3.13"
+    },
+    "system_executable": "/nix/store/sqlb1nn5d6j096h9s52jy3is6nd7b98y-python-wrapped-0.1.0/bin/.python-wrapped",
+    "system_stdlib": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python3.13",
+    "system_stdlib_platform": "/nix/store/2fmijdlfxk6rflskc8y1mcpl8hyybv60-python3-3.13.1/lib/python3.13",
+    "version": "3.13.1 (main, Dec  3 2024, 17:59:52) [GCC 13.3.0]",
+    "version_info": {
+      "major": 3,
+      "micro": 1,
+      "minor": 13,
+      "releaselevel": "final",
+      "serial": 0
+    },
+    "version_nodot": "313"
+  },
+  "path": "/nix/store/sqlb1nn5d6j096h9s52jy3is6nd7b98y-python-wrapped-0.1.0/bin/.python-wrapped",
+  "st_mtime": 1.0
+}

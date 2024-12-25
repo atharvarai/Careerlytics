@@ -1,0 +1,1 @@
+{"version":2,"languages":{"python3-pip":{"guessedImports":["Flask","SQLAlchemy"],"guessedImportsHash":"f1e9ee90ac458382f00b4c8676e487d8"},"python3-poetry":{"specfileHash":"7c49f7ca8c5f64f35a9e09447f45f800","lockfileHash":"d44fc6a8f03d4da91c14ddb7d343a941","guessedImports":["SQLAlchemy","python-dotenv","Flask"],"guessedImportsHash":"085a5682a99e943eccf8f67f622008e7"}}}

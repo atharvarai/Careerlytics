@@ -1,0 +1,22 @@
+modules = ["python-3.12:v8-20240106-d78736"]
+run = "poetry install && python app.py"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "poetry install && python app.py"]
+
+[packager]
+language = "python3"
+
+[languages.python3]
+pattern = "**/*.py"
+syntax = "python"
+
+[languages.python3.languageServer]
+start = "pylsp"
+
+[[ports]]
+localPort = 5000
+externalPort = 80
