@@ -1,0 +1,8 @@
+<div class="py-1" id="job-item">
+    <h1 class="fw-semibold text-center mt-5 mb-5">Job Openings</h1>
+    <div>
+        {% for job in jobs %}
+        {% include 'jobitem.html' %}
+        {% endfor %}
+    </div>
+</div>

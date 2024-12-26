@@ -1,34 +1,62 @@
-<h4>Application Form</h4>
-<form action="/job/{{job['id']}}/apply" method="post">
-  <div class="mb-2">
-  <label>Full Name</label><br>
-  <input type="text" required name="full_name" placeholder="Bruce Wayne">
-  </div>
+<style>
+  .form-container {
+    max-width: 800px;
+    padding: 1.5rem 0;
+  }
 
-  <div class="mb-2">
-  <label>Email</label><br>
-  <input type="email" required name="email" placeholder="bruce@wayne.com">
-  </div>
+  .form-title {
+    margin-bottom: 2.5rem;
+  }
 
-  <div class="mb-2">
-  <label>LinkedIn URL</label><br>
-  <input type="url" name="linkedin_url" placeholder="https://linked.com/in/brucewayne">
-  </div>
+  .form-control:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+  }
 
-  <div class="mb-2">
-    <label>Education</label><br>
-    <textarea name="education"></textarea>
-  </div>
+  textarea.form-control {
+    min-height: 120px;
+  }
+</style>
 
-  <div class="mb-2">
-    <label>Work Experience</label><br>
-    <textarea name="work_experience"></textarea>
-  </div>
+<div class="container p-0">
+  <div class="form-container">
+    <h4 class="display-5 fw-semibold form-title">Tell us about yourself</h4>
+    <form action="/job/{{job['id']}}/apply" method="post">
+      <div class="mb-4">
+        <label>Full Name</label><br>
+        <input type="text" required name="full_name" placeholder="Enter your full name" class="form-control">
+      </div>
 
-  <div class="mb-2">
-  <label>Resume URL</label><br>
-  <input type="url" name="resume_url">
-  </div>
+      <div class="mb-4">
+        <label>Email</label><br>
+        <input type="email" required name="email" placeholder="Enter your email address" class="form-control">
+      </div>
 
-  <input type="submit">
-</form>
+      <div class="mb-4">
+        <label>LinkedIn URL</label><br>
+        <input type="url" name="linkedin_url" placeholder="Paste your LinkedIn profile URL" class="form-control">
+      </div>
+
+      <div class="mb-4">
+        <label>Education</label><br>
+        <textarea name="education" placeholder="List your educational qualifications, including:
+• Degree and major
+• Graduation year
+• Notable achievements" class="form-control"></textarea>
+      </div>
+
+      <div class="mb-4">
+        <label>Work Experience</label><br>
+        <textarea name="work_experience" placeholder="Describe your work experience" class="form-control"></textarea>
+      </div>
+
+      <div class="mb-2">
+        <label>Resume URL</label><br>
+        <input type="url" name="resume_url" placeholder="Share a link to your resume (Google Drive, Dropbox, etc.)"
+          class="form-control">
+      </div>
+
+      <input type="submit" class="btn btn-primary mt-3">
+    </form>
+  </div>
+</div>
